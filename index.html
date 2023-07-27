@@ -22,7 +22,7 @@
                     <label for="check" class="btn btn-ghost btn-circle lg:hidden">
                         <i class="fa-solid fa-bars"></i>
                     </label>
-                    <ul tabindex="0" class="float-right flex menu menu-horizontal ">
+                    <ul tabindex="0" class="float-right flex menu menu-horizontal max-lg:hidden">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Shop</a></li>
@@ -39,6 +39,7 @@
                     class="rounded-3xl text-center input-bordered w-auto hidden md:block">
             </div>
         </nav>
+
         <div>
             <div class="carousel mx-auto w-full ">
                 <div id="slide1" class="carousel-item mx-auto relative w-full">
@@ -47,16 +48,16 @@
                         class="absolute flex justify-between mx-auto w-11/12 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <div>
-                            <h1 class="uppercase text-white font-bold text-xl lg:text-2xl">exotic test at your doorstep</h1>
-                            <br>
+                            <h1 class="uppercase text-white font-bold text-lg lg:pb-4 lg:text-3xl">exotic test at your doorstep
+                            </h1>
                             <p class="text-white lg:font-bold">We supply highly quality organic products</p>
-                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg mt-10">
+                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg lg:mt-10">
                                 SHOP NOW
                             </button>
                         </div>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
-                    
+
                 </div>
                 <div id="slide2" class="carousel-item mx-auto relative w-full">
                     <img src="images/banner2.png" class="w-11/12 mx-auto" />
@@ -64,10 +65,10 @@
                         class="absolute flex justify-between mx-auto w-11/12 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <div>
-                            <h1 class="uppercase text-white font-bold text-xl lg:text-2xl">exotic test at your doorstep</h1>
-                            <br>
+                            <h1 class="uppercase text-white font-bold text-xl lg:pb-4 lg:text-3xl">exotic test at your doorstep
+                            </h1>
                             <p class="text-white lg:font-bold">We supply highly quality organic products</p>
-                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg mt-10">
+                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg lg:mt-10">
                                 SHOP NOW
                             </button>
                         </div>
@@ -80,10 +81,10 @@
                         class="absolute flex justify-between mx-auto w-11/12 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <div>
-                            <h1 class="uppercase text-white font-bold text-xl lg:text-2xl">exotic test at your doorstep</h1>
-                            <br>
+                            <h1 class="uppercase text-white font-bold text-xl lg:pb-4 lg:text-3xl">exotic test at your doorstep
+                            </h1>
                             <p class="text-white lg:font-bold">We supply highly quality organic products</p>
-                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg mt-10">
+                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg lg:mt-10">
                                 SHOP NOW
                             </button>
                         </div>
@@ -96,10 +97,10 @@
                         class="absolute flex justify-between mx-auto w-11/12 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <div>
-                            <h1 class="uppercase text-white font-bold text-xl lg:text-2xl">exotic test at your doorstep</h1>
-                            <br>
+                            <h1 class="uppercase text-white font-bold text-xl lg:pb-4 lg:text-3xl">exotic test at your doorstep
+                            </h1>
                             <p class="text-white lg:font-bold">We supply highly quality organic products</p>
-                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg mt-10">
+                            <button class=" bg-[#f85559] btn btn-sm md:btn-md lg:btn-lg lg:mt-10">
                                 SHOP NOW
                             </button>
                         </div>
@@ -108,8 +109,72 @@
                 </div>
             </div>
         </div>
+
+        <div
+            class="bg-slate-200 place-self-auto h-auto mx-auto relative px-5 py-5 -mt-16 mb-10 w-6/12 flex gap-2 text-center max-lg:hidden">
+            <div>
+                <img src="images/fruit1.png" alt="fruit1">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit2.png" alt="fruit2">
+                <p>Orange</p>
+            </div>
+            <div>
+                <img src="images/fruit3.png" alt="fruit3">
+                <p>Mango</p>
+            </div>
+            <div>
+                <img src="images/fruit4.png" alt="fruit4">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit5.png" alt="fruit5">
+                <p>Mango</p>
+            </div>
+        </div>
+
     </header>
-    <main></main>
+
+    <main>
+        <div>
+            <div class="flex justify-around">
+                <div>
+                    <h3 class="text-2xl font-bold">Deal of the day</h3> 
+                    <p class="text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of <br> classical Latin literature from 45 BC,
+                    making it over 2000 years old.</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:50;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
